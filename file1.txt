@@ -1,2 +1,3 @@
 MY new file
 MY new file lin2
+thisis an GUI based edit
