@@ -14,5 +14,17 @@ pipeline {
         }
       }
       
+      stage ('third'){
+        when {
+          not {
+            branch "master"
+          }
+        }
+        steps {
+          echo "validation of 3rd"
+          
+        }
+        
+        
    }
 }
